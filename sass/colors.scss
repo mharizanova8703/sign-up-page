@@ -1,0 +1,84 @@
+.bg-purple {
+    background-color: #1a0045;
+}
+
+.text-color {
+    color: #fa531f;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Monoton',
+        cursive;
+    color: #fa531f;
+}
+
+#modalMessage {
+    font-family: 'Monoton',
+        cursive;
+    color: #fa531f;
+    text-align: center;
+}
+
+.bg-btn {
+    background-color: #7209c7;
+}
+
+.rounded-custom {
+    border-radius: 1.5rem;
+}
+
+input {
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+
+}
+
+input::placeholder {
+    color: white !important;
+}
+
+.btn {
+    cursor: pointer;
+    background: hsla(273, 91%, 41%, 1);
+
+    background: linear-gradient(270deg, hsla(273, 91%, 41%, 1) 62%, hsla(263, 100%, 14%, 1) 100%);
+
+    background: -moz-linear-gradient(270deg, hsla(273, 91%, 41%, 1) 62%, hsla(263, 100%, 14%, 1) 100%);
+
+    background: -webkit-linear-gradient(270deg, hsla(273, 91%, 41%, 1) 62%, hsla(263, 100%, 14%, 1) 100%);
+
+}
+
+.btn:hover {
+    background-color: hsla(273, 91%, 41%, 1);
+}
+
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#main {
+    background-image: url("/images/bg-purple.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat,
+        repeat;
+    min-height: 100vh;
+    background-size: cover;
+
+}
+
+.modal fade {
+    background-color: #fa531f;
+}
+
+@media screen and (max-width: 640px) {
+    .eclipse-1 {
+        width: 100%;
+    }
+}
